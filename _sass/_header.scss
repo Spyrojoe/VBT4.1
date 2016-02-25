@@ -1,15 +1,16 @@
 .sidebar{
     display: flex;
     justify-content: flex-start;
-    background: #D3D3D3;
     flex: 0 0 30%;
+    background: #D3D3D3;
 
     header{
-        width: 100%;
-        height: 100vh;
         display: flex;
         flex-flow: column nowrap;
         justify-content: space-between;
+        width: 100%;
+        height: 100vh;
+        padding: 20px 4%;
         background: #D3D3D3;
 
         .intro{
@@ -22,6 +23,7 @@
         nav{
             display: flex;
             flex-flow: column nowrap;
+            align-items: center;
         }
     }
 }

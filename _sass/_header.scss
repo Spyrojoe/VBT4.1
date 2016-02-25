@@ -1,0 +1,27 @@
+.sidebar{
+    display: flex;
+    justify-content: flex-start;
+    background: #D3D3D3;
+    flex: 0 0 30%;
+
+    header{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-between;
+        background: #D3D3D3;
+
+        .intro{
+
+            h1, p{
+                margin: 0 auto;
+            }
+        }
+
+        nav{
+            display: flex;
+            flex-flow: column nowrap;
+        }
+    }
+}

@@ -28,7 +28,9 @@ $content-width:    800px;
 $on-palm:          600px;
 $on-laptop:        800px;
 
-
+// Custom variables - Brad Brock, 2.25.26
+$orange:           #ffa500;
+$white:            #f5f5f5;
 
 // Use media queries like this:
 // @include media-query($on-palm) {

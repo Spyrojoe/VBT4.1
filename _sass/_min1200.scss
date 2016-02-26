@@ -1,0 +1,8 @@
+@media screen and (min-width: 1200px){
+	.sidebar{
+		flex-basis: auto;
+	}
+	main{
+		flex-grow: 1;
+	}
+}

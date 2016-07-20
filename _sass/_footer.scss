@@ -23,3 +23,21 @@ footer{
 	    }
 	}
 }
+
+@media (max-width: 560px){
+	footer{
+		width: 45%;
+		display: flex;
+		flex-flow: column wrap;
+		align-items: flex-end;
+
+		ul{
+			padding-left: 0;
+
+			li{
+				width: 30px;
+				margin: 0 10px;
+			}
+		}
+	}
+}

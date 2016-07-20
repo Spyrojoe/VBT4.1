@@ -44,3 +44,20 @@
         }
     }
 }
+.subtitle{
+    color: rgba(0,0,0,.65);
+    font-size: .8rem;
+}
+.flex-title{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: baseline;
+
+    > *:first-child{
+        margin-right: 12px;
+    }
+
+    > *{
+        margin: 0;
+    }
+}

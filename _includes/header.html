@@ -5,6 +5,25 @@
 			<h1>Brad Brock</h1>
 			<p>a UX developer and designer in&nbsp;Dallas</p>
 		</div>
-		{% include footer.html %}
+		<div class="contact">
+			<ul class="social-media-list">
+				{% if site.github_username %}
+				<li>
+				{% include icon-github.html %}
+				</li>
+				{% endif %}
+				{% if site.twitter_username %}
+				<li>
+				{% include icon-twitter.html %}
+				</li>
+				{% endif %}
+				{% if site.linkedin_username %}
+				<li>
+				{% include icon-linkedin.html %}
+				</li>
+				{% endif %}
+			</ul>
+			<a href="mailto:{{ site.email }}">{{ site.email }}</a>
+		</div>
 	</header>
 </div>

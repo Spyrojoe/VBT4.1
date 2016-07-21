@@ -1,29 +1,19 @@
-<div class="sidebar">
-	<header>
-		<!-- <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a> -->
-		<div class="intro">
-			<h1>Brad Brock</h1>
-			<p>a UX developer and designer in&nbsp;Dallas</p>
-		</div>
-		<div class="contact">
-			<ul class="social-media-list">
-				{% if site.github_username %}
-				<li>
-				{% include icon-github.html %}
-				</li>
-				{% endif %}
-				{% if site.twitter_username %}
-				<li>
-				{% include icon-twitter.html %}
-				</li>
-				{% endif %}
-				{% if site.linkedin_username %}
-				<li>
-				{% include icon-linkedin.html %}
-				</li>
-				{% endif %}
-			</ul>
-			<a href="mailto:{{ site.email }}">{{ site.email }}</a>
-		</div>
-	</header>
-</div>
+<header>
+	<div class="intro">
+		<h1>Brad Brock</h1>
+		<p>a UX developer and designer in&nbsp;Dallas</p>
+	</div>
+	<ul class="contact">
+		{% if site.github_username %}
+		<li>
+		{% include icon-github.html %}
+		</li>
+		{% endif %}
+		{% if site.linkedin_username %}
+		<li>
+		{% include icon-linkedin.html %}
+		</li>
+		{% endif %}
+		<li><a href="mailto:{{ site.email }}"><i class="material-icons email">email</i></a></li>
+	</ul>
+</header>

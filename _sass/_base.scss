@@ -54,3 +54,10 @@ svg{
 ul{
     padding-left: 40px;
 }
+
+/* micro clearfix */
+.clfx:after{
+    display: table;
+    content: "";
+    clear: both;
+}
